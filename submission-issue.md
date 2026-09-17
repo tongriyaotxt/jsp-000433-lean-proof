@@ -34,7 +34,7 @@ Statement correspondence notes: `Σ (P/a) < 2P` with `P = ∏ A` is the exact ra
 **Pinned proof source:**
 
 - Repository: https://github.com/tongriyaotxt/jsp-000433-lean-proof
-- Pinned commit: `TO_BE_FILLED_ON_PUSH`
+- Pinned commit: `b8398491ec39b8cb8b1d04d13aa716b403164383`
 - File: `Jsp000433.lean` (self-contained, **Lean 4 core only, no Mathlib dependency**, ~370 lines)
 - Toolchain: Lean v4.34.0 (pinned in `lean-toolchain`)
 
@@ -42,7 +42,7 @@ Statement correspondence notes: `Σ (P/a) < 2P` with `P = ∏ A` is the exact ra
 
 - Local kernel check (Lean v4.34.0, Windows, `lean Jsp000433.lean`): pass, no errors, no warnings (2026-09-17).
 - Axiom audit (`#print axioms jsp_000433`): `propext`, `Classical.choice`, `Quot.sound` only. **No `sorryAx`; no `native_decide`/`Lean.ofReduceBool`** in the proof development (the two illustrative `example`s use `decide` only and are not dependencies of the main theorem).
-- CI kernel check (GitHub Actions, ubuntu-latest, fresh elan + Lean v4.34.0, `lean Jsp000433.lean` plus automated sorryAx scan): `TO_BE_FILLED_ON_CI`.
+- CI kernel check (GitHub Actions, ubuntu-latest, fresh elan + Lean v4.34.0, `lean Jsp000433.lean` plus automated sorryAx scan): https://github.com/tongriyaotxt/jsp-000433-lean-proof/actions/runs/35183178689 — result: pass.
 
 ### Confirmation status
 
